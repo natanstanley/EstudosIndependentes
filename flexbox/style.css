@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+
+}
+
+h1{
+    text-align: center;
+    color: #333;
+}
+
+.flex-container {
+    background-color: #ddd;
+    border: 2px solid #aaa;
+    padding: 1px;
+    margin: 20px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item{
+    background-color: #007bff ;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 5px;
+}
