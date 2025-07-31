@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container">
+
+        <h1>Flexbox Playground</h1>
+
+        <div class="visualizer">
+            <div class="flex-container" id="flex-container">
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item">3</div>
+            </div>
+
+        </div>
+
+
+        <div class="code-editor">
+            <div class="editor-header">
+                <div class="dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <span class="editor-title">flexbox.css</span>
+            </div>
+            <textarea name="css-input" id="editor-body" spellcheck="false">/* Altere o código CSS aqui */
+display: flex;
+flex-wrap: wrap; 
+gap: 1rem;
+justify-content: center;
+align-items: center;
+            </textarea>
+            <!-- caixa de texto multilinha. spellcheck: verificação ortográfica é desativada. -->
+        </div>
+
+
+        <div class="controls">
+            <button id="add-item">Adicionar item</button>
+            <button id="remove-item">Remover último item</button>
+            <button id="show-hints">Ver dicas</button>
+        </div>
+
+
+        <script src="script.js"></script>
+
+    </main>
+
+</body>
+
+</html>
